@@ -3,5 +3,8 @@ Os conteúdos explorados foram:
 ### args e kwargs
 ### map e filter
 ### sets
+### decorators
+### ternary operators
+### global and return keywords
 
 # Ainda em construção ...
