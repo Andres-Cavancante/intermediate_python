@@ -14,3 +14,4 @@ dict_default = defaultdict(int) #the standard value will be 0 (int)
 dict_default['name'] = 'Andrew'
 print(dict_default['name'], dict_default['city'])
 
+# .......
