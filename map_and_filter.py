@@ -5,7 +5,7 @@ print('*********','Using map','*********')
 
 items = [2,4,7,8,9,14]
 squared = list(map(lambda x: x*x, items)) #The map function returns a map object, so the list function is used to return a list
-print(squared) #Lambda functions are frequently used with map
+print(squared) #Lambda functions are frequently used with map. But it can be any function
 
 print('******************************')
 

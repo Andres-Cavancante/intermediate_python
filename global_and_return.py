@@ -8,7 +8,7 @@ def add(*args):
         result += arg
     return result
 
-print('The result is', add(3,5,6,2))
+print('The result is', add(3,5,6,2)) #output: The result is 16
 
 print('*********','Using global','*********')
 
@@ -21,7 +21,7 @@ def multiply(*args):
         res *= arg
 
 multiply(2,5,67)
-print(res)
+print(res) #output: 670
 
 #in practical programming it is best to avoid the global keyword as it only makes things difficult by introducing unwanted variables to the global scope
 
@@ -45,4 +45,4 @@ def profile():
     age = '35'
     return name, age
 
-print(profile()[0]) #output: 35
+print(profile()[0]) #output: Amelie
